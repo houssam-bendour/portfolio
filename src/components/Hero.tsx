@@ -6,7 +6,7 @@ const Hero = () => {
   const handleDownloadCV = () => {
     // Créer un lien temporaire
     const link = document.createElement('a');
-    link.href = '/cv.pdf';
+    link.href = 'https://houssam-bendour.github.io/portfolio/cv.pdf';
     link.download = 'houssam-bendour-cv.pdf';
     document.body.appendChild(link);
     link.click();
